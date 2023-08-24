@@ -15,10 +15,8 @@
 
 #include <limits.h>
 #include <stddef.h>
-#include "atomic.h"
-#include "futex.h"
 #include "mutex.h"
-#include "spinlock.h"
+
 
 typedef struct {
     atomic int seq;
